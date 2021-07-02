@@ -54,19 +54,19 @@ export default {
         },
         {
           icon: "mdi-newspaper-variant-multiple-outline",
-          title: "Berita Terkini",
-          to: "/beritaterkini"
+          title: "Top Headlines",
+          to: "/headlineNews"
         },
         {
           icon: "mdi-magnify",
-          title: "Cari Berita",
-          to: "/cariberita"
+          title: "Search News",
+          to: "/searchNews"
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: "Portal Berita"
+      title: "Nyuspeper"
     };
   }
 };
