@@ -86,8 +86,8 @@ export default {
   methods: {
     getNewsData() {
       this.isLoading = true;
-      //const apiKey = "450614c49e6d4579a2fa378945cda4c0";
-      const apiKey = "";
+      const apiKey = "450614c49e6d4579a2fa378945cda4c0";
+      //const apiKey = "";
       fetch(
         `https://newsapi.org/v2/top-headlines?country=id&category=${this.categorySelected}&page=${this.page}&pageSize=${this.pageSize}&apiKey=${apiKey}`
       )

@@ -34,7 +34,8 @@
       </v-container>
     </v-main>
     <v-footer :absolute="!fixed" app>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <v-spacer></v-spacer
+      ><span>&copy; {{ new Date().getFullYear() }} - Nyuspeper</span>
     </v-footer>
   </v-app>
 </template>

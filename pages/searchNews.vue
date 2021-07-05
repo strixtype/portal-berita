@@ -101,7 +101,7 @@ export default {
     searchLabel() {
       return this.searchTypeSelected === "keyword"
         ? "keyword"
-        : "news source, ex: abcnews.com";
+        : "news source, ex: bbc.com";
     }
   },
 
@@ -148,6 +148,7 @@ export default {
         params += `${item.key}=${item.value}${
           index !== queryParams.length - 1 ? "&" : ""
         }`;
+        console.log(params);
       });
 
       fetch(`https://newsapi.org/v2/everything?${params}`)

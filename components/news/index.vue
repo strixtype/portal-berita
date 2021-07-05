@@ -15,7 +15,7 @@
           style="position: absolute; bottom: 0px; width: 100%;"
         >
           <v-spacer />
-          <v-btn color="primary" href="item.url" target="_blank">
+          <v-btn color="primary" :href="item.url" target="_blank">
             Read
           </v-btn>
         </v-card-actions>
