@@ -49,14 +49,9 @@ export default {
       fixed: false,
       items: [
         {
-          icon: "mdi-home",
-          title: "Home",
-          to: "/"
-        },
-        {
           icon: "mdi-newspaper-variant-multiple-outline",
           title: "Top Headlines",
-          to: "/headlineNews"
+          to: "/"
         },
         {
           icon: "mdi-magnify",
